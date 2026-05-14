@@ -1,0 +1,45 @@
+# ╔══════════════════════════════════════════════╗
+# ║        ChiliXoSo - Plugin Xổ Số Minecraft    ║
+# ║          Mô phỏng Vietlott Mega 6/45         ║
+# ╚══════════════════════════════════════════════╝
+
+# ── Cài đặt Vé ──────────────────────────────────
+# Giá 1 tờ vé (tính bằng đơn vị tiền của Vault)
+TicketPrice: 10000.0
+
+# Phần trăm từ mỗi vé bán ra được cộng vào quỹ Jackpot
+JackpotContributionRate: 0.50
+
+# ── Jackpot ─────────────────────────────────────
+# Giá trị Jackpot khởi điểm khi server lần đầu bật
+BaseJackpot: 1000000.0
+
+# ── Thời gian Quay số ────────────────────────────
+# Khoảng cách giữa các lần quay (đơn vị: PHÚT)
+DrawInterval: 10
+
+# ── Cơ cấu Giải thưởng (Cố định) ────────────────
+# Jackpot (trúng 6 số) = toàn bộ quỹ tích lũy (không cài ở đây)
+Prize:
+  Match5: 10000000.0    # Giải Nhất  - Trúng 5 số
+  Match4:   300000.0    # Giải Nhì   - Trúng 4 số
+  Match3:    30000.0    # Giải Ba    - Trúng 3 số
+
+# ── Thông báo ────────────────────────────────────
+# Thông báo đếm ngược trước khi quay (đơn vị: giây)
+# Hệ thống sẽ broadcast tại các mốc này
+CountdownAlerts:
+  - 300   # 5 phút
+  - 60    # 1 phút
+  - 30    # 30 giây
+  - 10    # 10 giây
+
+# ── Tên GUI ──────────────────────────────────────
+GuiTitle: "&5&l🍀 XỔ SỐ CHILI &8| &eChọn 6 Số May Mắn"
+
+# ── Màu sắc & Prefix ─────────────────────────────
+Prefix: "&8[&c&lChili&e&lXổSố&8] "
+
+# ── Debug ────────────────────────────────────────
+# Bật log chi tiết ra console (chỉ dùng khi debug)
+Debug: false

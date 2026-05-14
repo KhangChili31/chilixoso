@@ -1,0 +1,15 @@
+com\chili\chilixoso\game\GameManager$1.class
+com\chili\chilixoso\commands\ChiliXoSoCommand.class
+com\chili\chilixoso\game\DrawTask$3.class
+com\chili\chilixoso\gui\HistoryGUI.class
+com\chili\chilixoso\gui\MainMenuGUI.class
+com\chili\chilixoso\game\DrawTask$2.class
+com\chili\chilixoso\game\DrawTask$WinnerInfo.class
+com\chili\chilixoso\gui\MenuGUI.class
+com\chili\chilixoso\database\DatabaseManager.class
+com\chili\chilixoso\game\DrawTask$1.class
+com\chili\chilixoso\game\DrawTask.class
+com\chili\chilixoso\ChiliXoSo.class
+com\chili\chilixoso\database\DatabaseManager$TicketData.class
+com\chili\chilixoso\game\GameManager.class
+com\chili\chilixoso\database\DatabaseManager$1.class

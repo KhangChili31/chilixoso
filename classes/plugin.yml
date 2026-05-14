@@ -1,0 +1,26 @@
+name: ChiliXoSo
+version: '1.0.0'
+main: com.chili.chilixoso.ChiliXoSo
+api-version: '26.1.2'
+description: Plugin Xổ Số Vietlott Mega 6/45 - Việt Hóa 100%
+author: chili
+
+softdepend:
+  - Vault
+
+commands:
+  chilixoso:
+    description: Mở menu xổ số hoặc lệnh quản trị
+    usage: |
+      /chilixoso                  
+      /chilixoso reload           
+      /chilixoso addjackpot <số>
+    aliases: []
+
+permissions:
+  chilixoso.use:
+    description: Cho phép người chơi mua vé xổ số
+    default: true
+  chilixoso.admin:
+    description: Quyền quản trị plugin (reload, addjackpot)
+    default: op
